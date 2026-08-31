@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For My Beautiful Rose, Kanna | My Deepest Regret & Endless Love</title>
+  <meta name="description" content="An honest confession of deep regret and eternal love for my beautiful rose, lil pumpkin, my kanna, my kanao." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Sacramento&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Canvas Background for Floating Stars & Glowing Petals -->
+  <canvas id="ambient-canvas"></canvas>
+
+  <!-- Ambient Audio Player Controller -->
+  <div class="audio-control-bar">
+    <button id="music-toggle-btn" class="music-btn" aria-label="Toggle soothing melody">
+      <span class="music-icon" id="music-icon">🎵</span>
+      <span class="music-label" id="music-label">Starting Soft Melody…</span>
+      <span class="music-visualizer" id="music-bars">
+        <span></span><span></span><span></span><span></span>
+      </span>
+    </button>
+  </div>
+
+  <!-- Main Container -->
+  <main class="page-wrapper">
+
+    <!-- HERO SECTION -->
+    <header class="hero-section" id="hero">
+      <div class="hero-content">
+        <div class="delicate-badge">❤️ To <span class="rotating-name" data-name-rotator>My Beautiful Rose</span></div>
+        <h1 class="hero-title">I Love You, Kanna, And I Deeply Regret Hurting You</h1>
+        <p class="hero-subtitle">
+          For 4 long years, you gave me your pure heart, my lil pumpkin. I took your presence for granted and broke you. This is my honest confession of regret, and my wholehearted vow of love to you.
+        </p>
+
+        <div class="hero-action-box">
+          <button id="open-letter-btn" class="btn-primary">
+            <span>Read My Letter, Kanna</span>
+            <svg class="icon-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 13l5 5 5-5M12 4v14"/></svg>
+          </button>
+          <button id="trigger-surprise-btn" class="btn-surprise">
+            <span>🎁 Open Your Surprise Screen</span>
+          </button>
+          <a href="#reasons" class="btn-secondary">
+            <span>Why You Are My World</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <span>Scroll gently</span>
+        <div class="mouse-wheel"></div>
+      </div>
+    </header>
+
+    <!-- CHAPTER 1: THE REGRET & LOVE LETTER -->
+    <section class="section letter-section" id="letter-section">
+      <div class="section-container">
+        <div class="section-badge">Chapter One • My Heart’s Confession</div>
+        <h2 class="section-title">A Letter For My Beautiful Rose</h2>
+        <p class="section-desc">Straight from my soul to yours, Kanao. No excuses, only truth.</p>
+
+        <div class="parchment-card" id="parchment">
+          <div class="parchment-glow"></div>
+          <div class="letter-header">
+            <span class="letter-date">To My Dearest Kanna, My Lil Pumpkin</span>
+            <span class="letter-stamp">Always & Forever Yours 🕊️</span>
+          </div>
+
+          <div class="letter-body">
+            <p class="letter-paragraph highlight-lead">
+              <strong>I love you more than words could ever describe, my beautiful rose.</strong> Yet, looking back at these past <strong>4 years</strong>, my biggest regret in this life is how blindly I treated the only woman whose heart beat for me.
+            </p>
+
+            <p class="letter-paragraph">
+              You stood by me with endless loyalty, Kanna. You gently tried to help me change, you waited with infinite patience, and you asked for nothing more than to be valued, cherished, and loved. But I was foolish. I gave my attention, my time, and my care to everyone in the world around me—friends, outsiders, distractions—except to my lil pumpkin whose happiness should have been my entire universe.
+            </p>
+
+            <p class="letter-paragraph">
+              When you finally burst, it shattered my ignorance. Knowing that my Kanao spent sleepless nights crying alone in the dark, feeling unprioritized, unvalued, and neglected because of my foolishness tears my soul into pieces. You did not deserve a single tear of that sorrow.
+            </p>
+
+            <p class="letter-paragraph">
+              I am truly, deeply sorry, my beautiful rose. I regret every single second I made you feel second best. You are my dream, my home, and the absolute love of my life. I will never take your heart for granted again.
+            </p>
+
+            <div class="letter-quote">
+              <span class="quote-mark">“</span>
+              <p>I cannot erase the tears I caused you, Kanna, but I vow to spend every day of my future loving you, prioritizing you, and making sure my beautiful rose never feels unvalued again.</p>
+            </div>
+          </div>
+
+          <div class="letter-footer">
+            <div class="signature-text">Forever Yours, Loving You Endlessly ❤️</div>
+            <div class="wax-seal" title="Sealed with love for Kanna">
+              <span>🌹</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHAPTER 2: THE REGRETS I CARRY -->
+    <section class="section reflections-section" id="reflections">
+      <div class="section-container">
+        <div class="section-badge">Chapter Two • The Truth I Face</div>
+        <h2 class="section-title">The Regrets I Carry In My Heart</h2>
+        <p class="section-desc">Confronting the mistakes I made so they never touch my lil pumpkin again.</p>
+
+        <div class="reflections-grid">
+          <!-- Card 1 -->
+          <div class="glass-card reflection-card">
+            <div class="card-icon-wrap">
+              <span class="card-icon">🥀</span>
+            </div>
+            <h3 class="card-title">Taking Your 4 Years For Granted</h3>
+            <p class="card-text">
+              You gave me 4 precious years of unconditional love, Kanna. You tried so hard to guide me, and I foolishly assumed you would always be there without nurturing your heart.
+            </p>
+            <div class="card-footer-tag">My Deepest Sorrow</div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="glass-card reflection-card">
+            <div class="card-icon-wrap">
+              <span class="card-icon">💔</span>
+            </div>
+            <h3 class="card-title">Caring For Others Over You</h3>
+            <p class="card-text">
+              I was always available for everyone else while leaving my beautiful rose with leftovers of my attention. You deserved to be the center of my world and my first thought every morning.
+            </p>
+            <div class="card-footer-tag">A Severe Mistake</div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="glass-card reflection-card">
+            <div class="card-icon-wrap">
+              <span class="card-icon">🌙</span>
+            </div>
+            <h3 class="card-title">Your Sleepless Nights In Tears</h3>
+            <p class="card-text">
+              The thought of my lil pumpkin weeping alone in bed while feeling invisible breaks my heart. You needed comfort and tenderness, and I failed to be your protector.
+            </p>
+            <div class="card-footer-tag">Never Again</div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="glass-card reflection-card">
+            <div class="card-icon-wrap">
+              <span class="card-icon">⏳</span>
+            </div>
+            <h3 class="card-title">Ignoring Your Gentle Warnings</h3>
+            <p class="card-text">
+              You tried to make me change before it reached this point, Kanao. I was stubborn and blind. Now that you burst, I finally see all the heavy pain you carried alone.
+            </p>
+            <div class="card-footer-tag">I Am Truly Awoken</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHAPTER 3: WHY I LOVE YOU SO DEEPLY -->
+    <section class="section reasons-section" id="reasons">
+      <div class="section-container">
+        <div class="section-badge">Chapter Three • Endless Adoration</div>
+        <h2 class="section-title">Why You Are My Entire World, Kanna</h2>
+        <p class="section-desc">You are the most precious soul I have ever known. Click each card to reveal my love.</p>
+
+        <div class="reasons-grid">
+          <div class="interactive-flip-card" data-card="1">
+            <div class="flip-inner">
+              <div class="flip-front">
+                <span class="flip-icon">🌹</span>
+                <h4>My Beautiful Rose</h4>
+                <span class="flip-hint">Click to read why I adore you</span>
+              </div>
+              <div class="flip-back">
+                <p>You bloom with so much grace, beauty, and kindness. Your heart is gentle and pure, and having you in my life is the greatest blessing I ever received.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="interactive-flip-card" data-card="2">
+            <div class="flip-inner">
+              <div class="flip-front">
+                <span class="flip-icon">🎃</span>
+                <h4>My Lil Pumpkin</h4>
+                <span class="flip-hint">Click to read why I adore you</span>
+              </div>
+              <div class="flip-back">
+                <p>Your cuteness, your laughter, and the way you light up my life bring so much warmth to my soul. My only wish is to keep you safe and smiling forever.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="interactive-flip-card" data-card="3">
+            <div class="flip-inner">
+              <div class="flip-front">
+                <span class="flip-icon">✨</span>
+                <h4>My Kanna’s Unshakable Loyalty</h4>
+                <span class="flip-hint">Click to read why I adore you</span>
+              </div>
+              <div class="flip-back">
+                <p>For 4 years, you stood by me through every high and low. Your devotion is rare and priceless. I love and respect you more than anyone else in this world.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="interactive-flip-card" data-card="4">
+            <div class="flip-inner">
+              <div class="flip-front">
+                <span class="flip-icon">💖</span>
+                <h4>My Sweet Kanao</h4>
+                <span class="flip-hint">Click to read why I adore you</span>
+              </div>
+              <div class="flip-back">
+                <p>You are my peace, my dream, and my home. Without you, nothing feels right. I love you, Kanao, with every beat of my heart.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE LOVE NOTES GENERATOR -->
+    <section class="section notes-section" id="love-notes">
+      <div class="section-container">
+        <div class="section-badge">Interactive • Love Notes for Kanna</div>
+        <h2 class="section-title">Whispers of Love for My Lil Pumpkin</h2>
+        <p class="section-desc">Tap the love letter below to draw a special message written just for you.</p>
+
+        <div class="love-jar-card">
+          <div class="love-jar-icon" id="love-jar-btn">💌</div>
+          <p class="love-jar-prompt">Tap the letter above to open a note</p>
+          <div class="note-display-box" id="note-display">
+            <p id="note-text">“You are my beautiful rose, and losing you is my greatest fear. I love you with all my soul, Kanna.”</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHAPTER 4: MY SACRED PROMISES -->
+    <section class="section vows-section" id="vows">
+      <div class="section-container">
+        <div class="section-badge">Chapter Four • My Commitments to Kanna</div>
+        <h2 class="section-title">My Sacred Vows to My Beautiful Rose</h2>
+        <p class="section-desc">I pledge these promises to you from the depths of my heart, Kanao. Tap each vow to seal it.</p>
+
+        <div class="vows-list">
+          <div class="vow-item" data-vow="1">
+            <div class="vow-checkbox">
+              <span class="vow-check-mark">✓</span>
+            </div>
+            <div class="vow-details">
+              <h4 class="vow-title">My Kanna Will Always Be My Priority #1</h4>
+              <p class="vow-desc">Above everyone else, above friends, and above any distraction in this world. You come first, always.</p>
+            </div>
+            <div class="vow-status">Tap to seal</div>
+          </div>
+
+          <div class="vow-item" data-vow="2">
+            <div class="vow-checkbox">
+              <span class="vow-check-mark">✓</span>
+            </div>
+            <div class="vow-details">
+              <h4 class="vow-title">Undivided Time & Presence For My Lil Pumpkin</h4>
+              <p class="vow-desc">Listening to your thoughts, holding you close, and making sure you never feel alone or second best again.</p>
+            </div>
+            <div class="vow-status">Tap to seal</div>
+          </div>
+
+          <div class="vow-item" data-vow="3">
+            <div class="vow-checkbox">
+              <span class="vow-check-mark">✓</span>
+            </div>
+            <div class="vow-details">
+              <h4 class="vow-title">No More Sleepless Nights In Tears For Kanao</h4>
+              <p class="vow-desc">I will be the reason you sleep peacefully with warmth in your heart, never the cause of your tears.</p>
+            </div>
+            <div class="vow-status">Tap to seal</div>
+          </div>
+
+          <div class="vow-item" data-vow="4">
+            <div class="vow-checkbox">
+              <span class="vow-check-mark">✓</span>
+            </div>
+            <div class="vow-details">
+              <h4 class="vow-title">Valuing My Beautiful Rose Every Single Day</h4>
+              <p class="vow-desc">I will never take your presence for granted again. I will remind you constantly of how precious and loved you are.</p>
+            </div>
+            <div class="vow-status">Tap to seal</div>
+          </div>
+
+          <div class="vow-item" data-vow="5">
+            <div class="vow-checkbox">
+              <span class="vow-check-mark">✓</span>
+            </div>
+            <div class="vow-details">
+              <h4 class="vow-title">Loving You Deeply & Faithfully Forever</h4>
+              <p class="vow-desc">My whole heart belongs solely to you, Kanna. I will honor you, protect you, and cherish you through all of life.</p>
+            </div>
+            <div class="vow-status">Tap to seal</div>
+          </div>
+        </div>
+
+        <div class="vow-progress-wrap">
+          <div class="vow-progress-bar">
+            <div class="vow-progress-fill" id="vow-fill" style="width: 0%"></div>
+          </div>
+          <span class="vow-progress-text" id="vow-progress-label">0 of 5 Promises Sealed</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHAPTER 5: HEALING & RECONCILIATION -->
+    <section class="section final-section" id="reconciliation">
+      <div class="section-container">
+        <div class="section-badge">Chapter Five • A Gentle Request</div>
+        <h2 class="section-title">Can We Begin Healing Together, Kanna?</h2>
+        <p class="section-desc">There is no rush and no pressure, my lil pumpkin. Take all the time your heart needs.</p>
+
+        <div class="decision-card">
+          <div class="decision-content">
+            <div class="heart-pulse-icon">🌹</div>
+            <h3 class="decision-heading">I love you with all my soul, my beautiful rose</h3>
+            <p class="decision-subtext">
+              Whatever you are feeling right now is completely valid, Kanna. How would you like us to move forward?
+            </p>
+
+            <div class="decision-buttons">
+              <button class="btn-choice btn-hug" id="btn-hug">
+                <span class="btn-icon">🫂</span>
+                <span>I want a warm hug and to talk</span>
+              </button>
+              <button class="btn-choice btn-time" id="btn-time">
+                <span class="btn-icon">🕊️</span>
+                <span>I still need time to heal</span>
+              </button>
+              <button class="btn-choice btn-forgive" id="btn-forgive">
+                <span class="btn-icon">💖</span>
+                <span>Let's start fresh and make it right</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sweet Interactive Response Modal -->
+        <div class="response-overlay" id="response-modal">
+          <div class="response-box">
+            <button class="modal-close" id="modal-close-btn">&times;</button>
+            <div class="modal-icon" id="modal-icon">💖</div>
+            <h3 class="modal-title" id="modal-title">My Promise to You, Kanna</h3>
+            <div class="modal-body" id="modal-body">
+              <!-- Dynamically populated -->
+            </div>
+            <button class="btn-primary modal-action-btn" id="modal-ack-btn">I Understand, My Love ❤️</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FULLSCREEN SURPRISE SCREEN FOR KANNA -->
+    <div class="surprise-overlay" id="surprise-screen">
+      <button class="surprise-close-btn" id="surprise-close-btn" aria-label="Close Surprise">&times;</button>
+      
+      <div class="surprise-container">
+        
+        <!-- Surprise Slide 1: Welcome / Open Gift -->
+        <div class="surprise-slide active" data-slide="1">
+          <div class="surprise-badge">🎁 Special Surprise For My Girl</div>
+          <h2 class="surprise-heading">A Gift of Love & Sincerity For Kanna</h2>
+          <p class="surprise-sub">My beautiful rose, you mean everything to me. I made these special forever passes solely for you.</p>
+          <div class="gift-box-animate" id="gift-open-trigger">
+            <span class="gift-emoji">🎁</span>
+            <span class="gift-glow-ring"></span>
+          </div>
+          <button class="btn-primary surprise-nav-btn" id="slide1-next-btn">Tap To Open Your Gift ❤️</button>
+        </div>
+
+        <!-- Surprise Slide 2: Forever Keepsake Coupons -->
+        <div class="surprise-slide" data-slide="2">
+          <div class="surprise-badge">🎟️ Sacred Forever Passes</div>
+          <h2 class="surprise-heading">Passes You Can Redeem Anytime With Me</h2>
+          <p class="surprise-sub">No expiration date, valid for all our tomorrows, exclusively for my lil pumpkin.</p>
+          
+          <div class="coupons-grid">
+            <div class="coupon-card">
+              <span class="coupon-icon">🫂</span>
+              <h4>Unlimited Warm Hugs</h4>
+              <p>Whenever you feel down, tired, or need warmth, I am ready to hold you tight for as long as you want.</p>
+              <span class="coupon-tag">Forever Active</span>
+            </div>
+            <div class="coupon-card">
+              <span class="coupon-icon">👂</span>
+              <h4>Undivided Listening Pass</h4>
+              <p>Zero interruptions, zero phone, just me listening to everything in your mind and validating your heart.</p>
+              <span class="coupon-tag">Anytime Needed</span>
+            </div>
+            <div class="coupon-card">
+              <span class="coupon-icon">👑</span>
+              <h4>Queen of My Day Pass</h4>
+              <p>Everything your way. Your favorite food, places you want to go, and you being pampered like royalty.</p>
+              <span class="coupon-tag">Always Yours</span>
+            </div>
+          </div>
+
+          <div class="surprise-btn-row">
+            <button class="btn-secondary surprise-nav-btn" id="slide2-prev-btn">Back</button>
+            <button class="btn-primary surprise-nav-btn" id="slide2-next-btn">Next Surprise ✨</button>
+          </div>
+        </div>
+
+        <!-- Surprise Slide 3: Eternal Certificate of Love -->
+        <div class="surprise-slide" data-slide="3">
+          <div class="surprise-badge">📜 Eternal Certificate of Devotion</div>
+          <div class="certificate-card">
+            <div class="cert-ribbon">👑</div>
+            <h3 class="cert-title">Certified Forever In My Heart</h3>
+            <p class="cert-presented">This certifies that</p>
+            <h2 class="cert-name rotating-name" data-name-rotator>My Beautiful Rose</h2>
+            <p class="cert-body">
+              is hereby declared the <strong>Highest Priority</strong>, the <strong>Most Cherished Soul</strong>, and the <strong>Only Queen</strong> of my life. For 4 years and for all eternity.
+            </p>
+            <div class="cert-seal-row">
+              <span class="cert-date">Forever & Always</span>
+              <span class="cert-gold-stamp">🌹 Sealed with True Love 🌹</span>
+            </div>
+          </div>
+
+          <div class="surprise-btn-row">
+            <button class="btn-secondary surprise-nav-btn" id="slide3-prev-btn">Back</button>
+            <button class="btn-primary surprise-nav-btn" id="slide3-finish-btn">I Love You, Kanna ❤️</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="page-footer">
+      <p class="footer-quote">
+        “To <span class="rotating-name" data-name-rotator>my beautiful rose</span> — I love you yesterday, today, and for all my tomorrows.”
+      </p>
+      <div class="footer-heart">Made solely for you with infinite love & deep regret ❤️</div>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
